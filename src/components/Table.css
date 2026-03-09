@@ -1,0 +1,12 @@
+.row
+{
+    background-color: antiquewhite;
+    color:black;
+    padding: 20px;
+    border:1px solid grey;
+}
+.data
+{
+    background-color: ghostwhite;
+    color: black;
+}

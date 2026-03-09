@@ -1,0 +1,72 @@
+.Container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f457bd;
+}
+
+.title {
+  text-align: center;
+  color: #111112;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+/* THIS CREATES GRID OF CARDS */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  background-color: #a05180;
+}
+
+/* SINGLE CARD WITH ALL STUDENT INFO */
+.student-card {
+  background: whitesmoke;
+  border: 2px solid gray;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .student-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #902e5b, #ff64c6);
+  border-radius: 12px 12px 0 0;
+} */
+
+.student-card:hover {
+  border-color: #660336;
+  box-shadow: 0 8px 25px rgba(14, 14, 14, 0.2);
+  transform: translateY(-5px);
+}
+
+.card {
+  color: #090d11;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.student-card p {
+  margin: 8px 0;
+  color: #4a5568;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 10px;
+  background: rgba(205, 119, 190, 0.08);
+  border-radius: 6px;
+  border-left: 3px solid #926d84;
+}

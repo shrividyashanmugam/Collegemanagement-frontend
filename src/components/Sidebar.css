@@ -1,0 +1,23 @@
+.container
+{
+    background-color: aquamarine;
+    border: 1px solid grey;
+    height: 500px;
+    width: 100px;
+    margin-top: auto;
+    padding: 20px;
+}
+.box
+{
+    background-color: beige;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid gray;
+    border-radius: 20%;
+    font-size: x-small;
+    width: auto;
+    text-align: center;
+    display:grid;
+    margin-top: 50%;
+    margin-bottom: 20%;
+}

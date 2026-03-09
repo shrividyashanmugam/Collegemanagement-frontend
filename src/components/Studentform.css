@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: plum;
+  min-height: 100vh;
+}
+
+div {
+  min-height: 100vh;
+  background: white;
+  padding: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: white;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 0 10px 30px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+button:nth-of-type(1) { /* Grid button */
+  background: #a72874;
+}
+
+button:nth-of-type(1):hover {
+  background: #94497b;
+}
+
+button:nth-of-type(2) { /* Table button */
+  background: #d6169c;
+}
+
+button:nth-of-type(2):hover {
+  background: #5c1437;
+}
+
+/* Grid styles - add className="student-grid" to your Studentgrid container */
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 0;
+}
+
+.student-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  background: #fafafa;
+}
+
+.student-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.student-card p {
+  margin: 8px 0;
+  color: #666;
+}
+
+/* Table styles - add className="student-table" to your StudentTable container */
+.student-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+  background: #f8f9fa;
+  font-weight: bold;
+  color: #333;
+}
+
+.student-table tr:hover {
+  background: #f8f9fa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  div {
+    padding: 20px 15px;
+  }
+  
+  .student-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  button {
+    margin: 0 5px 20px 0;
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}

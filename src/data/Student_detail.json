@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "Name": "Alice",
+        "Regno": "710724244057",
+        "Course": "BTech",
+        "duration": "2024-28"
+    },
+    {
+        "id": 2,
+        "Name": "Bob",
+        "Regno": "710724244058",
+        "Course": "BTech",
+        "duration": "2024-28"
+    },
+    {
+        "id": 3,
+        "Name": "Charlie",
+        "Regno": "710724244059",
+        "Course": "BTech",
+        "duration": "2024-28"
+    },
+    {
+        "id": 4,
+        "Name": "Diana",
+        "Regno": "710724244060",
+        "Course": "BTech",
+        "duration": "2024-28"
+    }
+]
