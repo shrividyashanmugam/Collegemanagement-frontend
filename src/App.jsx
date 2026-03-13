@@ -5,7 +5,7 @@ import StudentTable from "./components/StudentTable";
 export default function App() {
   const [view, setView] = useState('grid')
   const [search, setSearch] = useState('')
-  const [filteredData, setFilteredData] = useState(data)
+  const [filteredData, setFilteredData] = useState([])
   const handleNameChange = (e) => {
     setSearch(e.target.value)
     setFilteredData(

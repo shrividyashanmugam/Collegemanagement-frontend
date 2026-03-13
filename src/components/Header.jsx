@@ -1,10 +1,11 @@
 import './Header.css';
-export default function Header()
-{
-    return(
-        <div class="head">
-           <h1>Dashboard</h1>
-        </div>
-    );
 
+export default function Header() {
+  return (
+    <header className="header">
+        <div className="header-container">
+            <h1 className="title">College Management Portal</h1>
+        </div>
+    </header>
+  );
 }

@@ -1,23 +1,32 @@
-.container
-{
-    background-color: aquamarine;
-    border: 1px solid grey;
-    height: 500px;
-    width: 100px;
-    margin-top: auto;
-    padding: 20px;
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:#1E3A8A;
+    color:white;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
 }
-.box
-{
-    background-color: beige;
-    color:black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 1px solid gray;
-    border-radius: 20%;
-    font-size: x-small;
-    width: auto;
-    text-align: center;
-    display:grid;
-    margin-top: 50%;
-    margin-bottom: 20%;
+
+.sidebar-title{
+    margin-bottom:30px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.sidebar-menu{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.menu-item{
+    padding:12px 15px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.menu-item:hover{
+    background:#2563EB;
 }
